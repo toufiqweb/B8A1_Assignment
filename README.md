@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assignment is about practicing the main TypeScript topics from Modules 1, 2 and 3. It has two parts: coding problems and blog posts.
+As part of this assignment, I completed 8 TypeScript coding problems and wrote 2 blog posts. The tasks cover different concepts that I learned throughout Modules 1, 2, and 3.
 
 ## Problem Solving
 
