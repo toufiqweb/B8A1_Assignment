@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In TypeScript, interface and type are used to define data structures. Both help describe what kind of data an object should contain and make code easier to understand.
+In TypeScript, interface and type are used to define data structures. Both are used to define the data an object can have and keep the code organized.
 
 ## Explanation
 
-An interface is used to define the structure of an object. It allows extending existing interfaces and merging multiple declarations with the same name.
+An interface is used to define the structure of an object. We can also extend an existing interface or declare the same interface multiple times to add more properties.
 
 ```typescript
 interface User {
@@ -40,6 +40,8 @@ type AdminUser = User & {
   role: string;
 };
 ```
+
+Interface is mainly used for objects, while type is useful for unions, intersections, and other types.
 
 ## Conclusion
 

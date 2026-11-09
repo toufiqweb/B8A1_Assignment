@@ -35,8 +35,8 @@ const user = await fetchData<User>("/api/user");
 console.log(user.name);
 ```
 
-TypeScript knows that user has a name. If I write `user.email` by mistake, I get an error before running the code, because User has no email. I can also use the same function to get products. I just write `fetchData<Product>` instead.
+TypeScript knows that user has a name. If I write user.email by mistake, I get an error before running the code, because User has no email. I can also use the same function to get products. I just write `fetchData<Product>` instead.
 
 ## Conclusion
 
-Generics let us write one function for many types and still keep the checking. With `Promise<T>`, working with API data becomes safe and easier.
+Generics let us write one function for many types and still keep the checking. With `Promise<T>`, working with API data becomes safe and easy.
